@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css.css">
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+
+    <title>Carspotting</title>
+ 
+</head>
+<section>
+    <header>
+        <nav>
+            <a href="#">Domů</a>
+            <a href="#gallery">Galerie/Služby</a>
+            <a href="cenik.html">Ceník</a>
+            <a href="#image-text">Kontakt</a>
+            
+        </nav>
+    </header>
+</section>
+    <!-- Sekce s videem na pozadí -->
+    <section id="showcase">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="https://d15-a.sdn.cz/d_15/c_img_F_I/bDruo8.jpeg?fl=cro,0,1,1276,717%7Cres,1200,,1%7Cjpg,80,,1" alt="Fotografie auta 1">
+                <div class="overlay">
+                    <h1>Precizní vizuální tvorba</h1>
+                    <p>Luxusní focení vozů</p>
+                    <button onclick="scrollToServices()">Objevte naše služby</button>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://maxtondesign.com/data/include/cms/our-projects/Carbon-BMW-M4-Competition/bmwm4_Front.webp" alt="Fotografie auta 2">
+                <div class="overlay">
+                    <h1>Profesionální videoprodukce</h1>
+                    <p>Posuňte svůj projekt na novou úroveň</p>
+                    <button onclick="scrollToServices()">Objevte naše služby</button>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://d62-a.sdn.cz/d_62/c_img_QQ_t/5dBBL/nissan-skyline-gt-r-r34.jpeg" alt="Fotografie auta 3">
+                <div class="overlay">
+                    <h1>Detailní produktová tvorba</h1>
+                    <p>Vytvoříme jedinečný vizuální obsah</p>
+                    <button onclick="scrollToServices()">Objevte naše služby</button>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Sekce O nás -->
+    <section id="about-us">
+        <h2>O nás</h2>
+        <p>Jsme tým profesionálů zaměřený na zachycení krásy automobilů prostřednictvím unikátní fotografie a videa. Naším cílem je představit vozy ve všech jejich aspektech, od designu až po výkon, a přinést inspiraci našim klientům a fanouškům automobilového světa. Každý snímek a každé video je pro nás příležitost ukázat jedinečnost každého vozu a vyprávět příběh, který za ním stojí.</p>
+    </section>
+    <section id="gallery">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <img src="https://slevomat.sgcdn.cz/images/t/728x364c/17/33/17339726-86fb6b.webp" alt="Auto 1">
+            <img src="https://www.senkyr.cz/data/sencars/cars/52-bmw-m4-competition-coupe-g82_r1_thumbl.jpg" alt="Auto 2">
+            <img src="https://honda-kolovratek.cz/wp-content/uploads/2022/11/430023_2023_Honda_Civic_Type_R_unveil-1.jpg" alt="Auto 3">
+            <img src="https://www.ar-cars.cz/cache/images/project/010/10003/1920x1094-exact/default/29/79029-ford-mustang-shelby-gt-500-0.jpeg" alt="Auto 4">
+            <img src="https://auto-mania.cz/wp-content/uploads/2019/10/test-2019-honda-civic-gt-4.jpg" alt="Auto 5">
+        </div>
+    </section>
+
+    
+<section id="detail-sluzby">
+    <h2 data-aos="fade-up">Naše služby</h2>
+
+    <article class="service-detail" data-aos="fade-right">
+        <h3 >Focení luxusních vozů</h3>
+        <p class="bila">Profesionalita a preciznost pro váš projekt.</p>
+        <ul>
+            <li class="cerna">Vysoká kvalita fotografií</li>
+            <li class="cerna">Postprodukční úpravy</li>
+        </ul>
+        <img src="https://static.autoweb.cz/wp-content/uploads/2019/07/corvette-c8-1.jpg" alt="Focení luxusních vozů">
+
+    </article>
+
+    <article class="service-detail" data-aos="fade-right">
+        <h3 >Produktová fotografie</h3>
+        <p class="bila">Detailní produktové záběry.</p>
+        <ul>
+            <li class="bila">Studio i exteriér</li>
+            <li class="cerna">Profesionální retuše</li>
+        </ul>
+        <img src="https://irp.cdn-website.com/08d31351/dms3rep/multi/424299-1-most-valuable-car-sold-online-6dfb51be.webp" alt="Produktová fotografie">
+    </article>
+
+    <article class="service-detail" data-aos="fade-right"><h3 >Videoprodukce</h3>
+        <p class="bila">Dynamické video obsahy.</p>
+        <ul>
+            <li class="cerna">Dronové záběry</li>
+            <li class="cerna">Hudební podkres</li>
+        </ul>
+        <img src="https://1884403144.rsc.cdn77.org/foto/pagani-zonda-hp-barchetta/Zml0LWluLzEwNTF4NjIxL2ZpbHRlcnM6cXVhbGl0eSg4NSkvaW1n/3638348.jpg?v=0&st=ndQi97oeBEJu7RVbO2FhvQhR-bHaxRDOTJAexnSU7SQ&ts=1600812000&e=0" alt="Videoprodukce"></article>
+
+    
+</section>
+
+<section id="blog" class="blog-section">
+    <h2></h2>
+    <div class="blog-posts">
+        <!-- Box 1: Příběhy o vozech -->
+        
+        
+        <!-- Box 2: Tipy pro carspotting -->
+        <div class="blog-post blog-box">
+            <div class="blog-box-content">
+                <h3>Tipy na focení aut</h3>
+                <p>Vylepšete své fotografie s těmito jednoduchými triky.</p>
+                
+            </div>
+            <img src="https://imgd.aeplcdn.com/1920x1080/n/cw/ec/176129/m4-competition-exterior-left-front-three-quarter.jpeg?isig=0&q=80&q=80" alt="Tipy na focení" class="blog-img">
+        </div>
+
+        <!-- Box 3: Akční příběhy automobilů -->
+        <div class="blog-post blog-box">
+            <div class="blog-box-content">
+                <h3>Příběhy aut na cestách</h3>
+                <p>Unikátní příběhy vozů zachycené naším týmem.</p>
+                
+            </div>
+            <img src="https://wallpapersok.com/images/hd/full-hd-car-ford-shelby-gt500-wicr81bpb6xn8nod.jpg" alt="Příběhy o vozech" class="blog-img">
+        </div>
+
+        <!-- Box 4: Video produkce -->
+        <div class="blog-post blog-box">
+            <div class="blog-box-content">
+                <h3>Videoprodukce pro váš vůz</h3>
+                <p>Jak vytvořit poutavé video z vašeho vozu.</p>
+                
+            </div>
+            <img src="https://wallpapers.com/images/featured/full-hd-car-cpncxfsj9u9zu14k.jpg" alt="Videoprodukce" class="blog-img">
+        </div>
+    </div>
+</section>
+
+<hr>
+
+
+<section id="blog" class="blog-section">
+    <h2>Informace</h2>
+    <div class="blog-posts">
+        <div class="blog-post">
+            <h3 class="fialova">Jak vzniká profesionální fotografie</h3>
+            <p>Objevte zákulisí focení luxusních automobilů.</p>
+
+        </div>
+        <div class="blog-post">
+            <h3 class="fialova">Tipy na focení aut</h3>
+            <p>Vylepšete své fotografie s těmito jednoduchými triky.</p>
+        </div>
+        <div class="blog-post">
+            <h3 class="fialova">Příběhy aut na cestách</h3>
+            <p>Unikátní příběhy vozů zachycené naším týmem.</p>
+        </div>
+        <div class="blog-post">
+            <h3 class="fialova">Nejnovější technologie v autokamerách</h3>
+            <p>Jaké technologické novinky zlepšují kvalitu automobilových videí?</p>
+
+        </div>
+        <div class="blog-post">
+            <h3 class="fialova">Nejlepší auta pro carspotting </h3>
+            <p>Seznam vozů, které vám nesmí uniknout při carspottingu.</p>
+        </div>
+        <div class="blog-post">
+            <h3 class="fialova">Údržba vašeho vozu pro lepší vzhled na fotografiích</h3>
+            <p>Jak pečovat o vůz, aby byl vždy připraven na focení.</p>
+        </div>
+        <div class="blog-post">
+            <h3 class="fialova">Tipy na výběr správného místa pro focení</h3>
+            <p>Jak najít ideální lokaci pro vaše automobilové fotografie?</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="image-text">
+    <div class="image-text-block">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/2023-mercedes-amg-c63-s-e-performance-109-65d79697e865a.jpg?crop=0.651xw:0.549xh;0.0897xw,0.326xh&resize=2048:*" alt="Ilustrační obrázek auta">
+        <p >Chcete, aby vaše auto vypadalo skvěle na profesionálních fotografiích a videích?<br> Nabízíme služby zaměřené na vytváření unikátních a kvalitních snímků vašich vozidel.  Díky našim zkušenostem a vášni pro automobily vám zajistíme výsledky, které se stanou nezapomenutelnou vzpomínkou.
+        <section id="contact-form">
+        
+        <div class="form-container">
+            <form >
+                <h2>Kontaktujte nás</h2>
+                <input type="text" name="name" placeholder="Vaše jméno" required>
+                <input type="email" name="email" placeholder="Váš e-mail" required>
+                <textarea name="message" placeholder="Vaše zpráva" required></textarea>
+                <button type="submit">Odeslat</button>
+            </form>
+        </div>
+    </section>
+
+
+        
+</section>
+    <footer>
+        <p>&copy; 2024 Carspotting. Všechna práva vyhrazena.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.overlay button').forEach(button => {
+            button.addEventListener('click', () => {
+                document.getElementById('about-us').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
